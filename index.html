@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    body {
+      position: relative;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7d2c4;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #ccc;
+    }
+
+    .personal-href {
+      background-color: #f7d2c4;
+      color: #333;
+      border-radius: 12px;
+      padding: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      font-weight: bold;
+      font-size: 48px;
+      margin: 30px 50px;
+    }
+
+    img {
+      max-width: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px auto;
+      border-radius: 12px;
+    }
+    .buttons{
+      display: flex;
+      justify-content: center;
+      padding: 20px 0 40px;
+    }
+    button {
+    background-color: #333; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 2px;
+    }
+  </style>
+  <title>Училището в моя роден град</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a class="personal-href" href="./index.html">Училището в Рудозем</a></li>
+      <li><a href="./history.html">История</a></li>
+      <li><a href="./galery.html">Галерия</a></li>
+      <li><a href="./teachers.html">Колектив</a></li>
+      <li><a href="./tv.html">Училищна телевизия</a></li>
+      <li><a href="./contact.html">Контакти</a></li>
+    </ul>
+  </nav>
+  <h1>Средно училище "Свети свети Кирил и Методий" град Рудозем</h1>
+  <img
+    src="https://img.haskovo.net//images/news_images/2022/05/11/orig-10653002210873955.jpg?v=1652282557https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzmmrtZE6ffLgSOMoAX56O_puB0ruPxMJkiRUIePRsxw&s"
+    alt="снимка на училището">
+    <audio id="myAudio" autoplay>
+      <source src="./sounds/imataco.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+  </audio>
+  <div class="buttons">
+    <button onclick="document.getElementById('myAudio').play()">Стартиране на музика</button>
+    <button onclick="document.getElementById('myAudio').pause()">Сложи музиката на пауза</button>
+  </div>
+  
+  <footer>
+    <p>&copy; Ефтим Ефтимов, Специалност: МИИТ 1 курс, Факултетен номер: 20233506</p>
+  </footer>
+</body>
+
+</html>

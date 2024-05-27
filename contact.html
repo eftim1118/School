@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: #f7d2c4;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: #ccc;
+        }
+
+        .personal-href {
+            background-color: #f7d2c4;
+            color: #333;
+            border-radius: 12px;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-weight: bold;
+            font-size: 48px;
+            margin: 30px 50px;
+        }
+
+        h3 {
+            text-decoration: underline;
+            display: block;
+            text-align: center;
+            color: #333;
+            font-weight: bold;
+            font-size: 28px;
+            margin: 30px 0;
+        }
+
+        table {
+            width: 80%;
+            max-width: 600px;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border: 1px solid white;
+        }
+
+        th,
+        td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid white;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+            border: 1px solid white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Училището в Рудозем</a></li>
+            <li><a href="./history.html">История</a></li>
+            <li><a href="./galery.html">Галерия</a></li>
+            <li><a href="./teachers.html">Колектив</a></li>
+            <li><a href="./tv.html">Училищна телевизия</a></li>
+            <li><a class="personal-href" href="./contact.html">Контакти</a></li>
+        </ul>
+    </nav>
+    <h1>Контакти</h1>
+    <div class="container">
+        <h3>Данни за контакт</h3>
+        <table>
+            <tr>
+                <th>Адрес:</th>
+                <td>ул. "Хан Аспарух" №1, Рудозем, Смолян, 4960, България</td>
+            </tr>
+            <tr>
+                <th>Е-мейл:</th>
+                <td><a href="mailto:info-2100801@edu.mon.bg">info-2100801@edu.mon.bg</a></td>
+            </tr>
+            <tr>
+                <th>Телефон:</th>
+                <td>0306 53640</td>
+            </tr>
+            <tr>
+                <th>Уебсайт:</th>
+                <td><a href="http://su-rudozem.eu" target="_blank">http://su-rudozem.eu</a></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>&copy; Ефтим Ефтимов, Специалност: МИИТ 1 курс, Факултетен номер: 20233506</p>
+      </footer>
+</body>
+</html>

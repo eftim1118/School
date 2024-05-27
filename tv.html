@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Училищна телевизия</title>
+  <style>
+    * {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    body {
+      position: relative;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7d2c4;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #ccc;
+    }
+
+    .personal-href {
+      background-color: #f7d2c4;
+      color: #333;
+      border-radius: 12px;
+      padding: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      font-weight: bold;
+      font-size: 48px;
+      margin: 30px 50px;
+    }
+.videos{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.videos iframe{
+  margin-bottom: 30px;
+}
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="./index.html">Училището в Рудозем</a></li>
+      <li><a href="./history.html">История</a></li>
+      <li><a href="./galery.html">Галерия</a></li>
+      <li><a href="./teachers.html">Колектив</a></li>
+      <li><a class="personal-href" href="./tv.html">Училищна телевизия</a></li>
+      <li><a href="./contact.html">Контакти</a></li>
+    </ul>
+  </nav>
+  <h1>Училищна телевизия</h1>
+  <div class="videos">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZmDV0KPZf8?si=U_nN-QSjgQ3Zc_U6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HnrqEpl4FzM?si=Gd_i_baTQRSvTwye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bQr5dlGjIZQ?si=iwO5D6bJxUk-vdqi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+ 
+  <footer>
+    <p>&copy; Ефтим Ефтимов, Специалност: МИИТ 1 курс, Факултетен номер: 20233506</p>
+  </footer>
+</body>
+
+</html>
